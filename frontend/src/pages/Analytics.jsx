@@ -5,12 +5,12 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "sonner";
 import * as XLSX from 'xlsx';
 
-import { FiltersBar } from "@/components/analytics-new/FiltersBar";
-import { KpiCards } from "@/components/analytics-new/KpiCards";
-import { PlantSpendChart } from "@/components/analytics-new/PlantSpendChart";
-import { DepartmentChart } from "@/components/analytics-new/DepartmentChart";
-import { SupplierTable } from "@/components/analytics-new/SupplierTable";
-import { AiInsightsBar } from "@/components/analytics-new/AiInsightsBar";
+import { FiltersBar } from "@/components/analytics/FiltersBar";
+import { KpiCards } from "@/components/analytics/KpiCards";
+import { PlantSpendChart } from "@/components/analytics/PlantSpendChart";
+import { DepartmentChart } from "@/components/analytics/DepartmentChart";
+import { SupplierTable } from "@/components/analytics/SupplierTable";
+import { AiInsightsBar } from "@/components/analytics/AiInsightsBar";
 
 const FY_RANGES = {
   "2024-25": { start: new Date(2024, 3, 1), end: new Date(2025, 2, 31, 23, 59, 59) },

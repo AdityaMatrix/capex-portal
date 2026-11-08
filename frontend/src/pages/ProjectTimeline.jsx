@@ -5,14 +5,14 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Activity, Table2, GanttChartSquare, GitCompareArrows, FolderPlus } from "lucide-react";
 import { toast } from "sonner";
 
-import { TimelineFiltersBar } from "@/components/timeline-new/TimelineFiltersBar";
-import { TimelineKpiCards } from "@/components/timeline-new/TimelineKpiCards";
-import { TimelineLegend } from "@/components/timeline-new/TimelineLegend";
-import { TimelineTable } from "@/components/timeline-new/TimelineTable";
-import { GanttChart } from "@/components/timeline-new/GanttChart";
-import { ProjectDetailDrawer } from "@/components/timeline-new/ProjectDetailDrawer";
-import { CompareDrawer } from "@/components/timeline-new/CompareDrawer";
-import { GroupManager } from "@/components/timeline-new/GroupManager";
+import { TimelineFiltersBar } from "@/components/timeline/TimelineFiltersBar";
+import { TimelineKpiCards } from "@/components/timeline/TimelineKpiCards";
+import { TimelineLegend } from "@/components/timeline/TimelineLegend";
+import { TimelineTable } from "@/components/timeline/TimelineTable";
+import { GanttChart } from "@/components/timeline/GanttChart";
+import { ProjectDetailDrawer } from "@/components/timeline/ProjectDetailDrawer";
+import { CompareDrawer } from "@/components/timeline/CompareDrawer";
+import { GroupManager } from "@/components/timeline/GroupManager";
 import { STAGES, addDays } from "@/lib/capexHelpers";
 
 const FY_RANGES = {
