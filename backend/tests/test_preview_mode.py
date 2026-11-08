@@ -6,7 +6,7 @@ import pytest
 import requests
 import os
 
-BASE_URL = os.environ.get('REACT_APP_BACKEND_URL', '').rstrip('/')
+BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8001").rstrip("/")
 
 class TestPreviewModeAPI:
     """Tests for /api/admin/access-config/preview/{role_id} endpoint"""

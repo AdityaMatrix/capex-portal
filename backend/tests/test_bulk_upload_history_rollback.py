@@ -9,7 +9,7 @@ import io
 import time
 from openpyxl import Workbook
 
-BASE_URL = os.environ.get('REACT_APP_BACKEND_URL', '').rstrip('/')
+BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8001").rstrip("/")
 
 # Test credentials
 CAPEX_HEAD_EMAIL = "manoj@capex.com"

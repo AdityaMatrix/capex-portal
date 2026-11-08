@@ -2,10 +2,11 @@
 Test Access Control Panel - Iteration 38
 Tests backend APIs for access control, preview mode, and permissions
 """
+import os
 import pytest
 import requests
 
-BASE_URL = "https://capex-portal-3.preview.emergentagent.com"
+BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8001").rstrip("/")
 
 class TestAccessControlConfig:
     """Tests for /api/admin/access-config endpoint"""
