@@ -1,4 +1,4 @@
-// Shared helpers for the Lovable-redesigned Analytics & Timeline pages.
+// Shared helpers for the Analytics and Project Timeline pages.
 
 const Cr = 1_00_00_000;
 const L = 1_00_000;
