@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
-import { API } from '@/App';
+import { API } from '@/lib/api';
 
 /**
  * Hook for module-based access control.

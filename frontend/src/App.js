@@ -17,8 +17,9 @@ import Analytics from "@/pages/Analytics";
 import ProjectTimeline from "@/pages/ProjectTimeline";
 import SettingsPage from "@/pages/SettingsPage";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-export const API = `${BACKEND_URL}/api`;
+import { API } from "@/lib/api";
+
+export { API };
 
 // Auth Context
 export const AuthContext = createContext(null);
