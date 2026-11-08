@@ -8,7 +8,7 @@ import pytest
 import requests
 import os
 
-BASE_URL = os.environ.get('REACT_APP_BACKEND_URL', 'https://capex-portal-3.preview.emergentagent.com')
+BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8001").rstrip("/")
 
 class TestAuth:
     """Authentication tests"""
